@@ -154,14 +154,14 @@ Inside of a for loop block you can access some special variables.
 
 | Variable       | Description                                                    |
 |----------------|----------------------------------------------------------------|
-| items.index     | The current iteration of the loop. (1 indexed)                |
-| items.index0    | The current iteration of the loop. (0 indexed)                |
-| items.revindex  | The number of iterations from the end of the loop (1 indexed) |
-| items.revindex0 | The number of iterations from the end of the loop (0 indexed) |
-| items.first     | `True` if first iteration                                       |
-| items.last      | `True` if last iteration                                        |
-| items.length    | The number of items in the sequence                           |
-| items.parent    | The parent context                                            |
+| loop.index     | The current iteration of the loop. (1 indexed)                |
+| loop.index0    | The current iteration of the loop. (0 indexed)                |
+| loop.revindex  | The number of iterations from the end of the loop (1 indexed) |
+| loop.revindex0 | The number of iterations from the end of the loop (0 indexed) |
+| loop.first     | `True` if first iteration                                       |
+| loop.last      | `True` if last iteration                                        |
+| loop.length    | The number of items in the sequence                           |
+| loop.parent    | The parent context                                            |
 
 A replacement block can be rendered if no iteration took place (because the sequence was empty). This can be done by using `else`.
 
